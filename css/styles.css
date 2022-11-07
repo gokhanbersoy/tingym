@@ -1,0 +1,163 @@
+body {
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 0;
+
+}
+
+h2 {
+  font-family: "Montserrat";
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: "Ubuntu";
+  margin: 50px;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.navbar {
+  margin: 0 50px;
+}
+
+.container-fluid {
+  background-color: #38b6ff;
+  font-family: "Montserrat";
+}
+
+#title .btn {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.big-heading {
+  margin: 50px 100px;
+  color: #fff;
+}
+
+.title-img {
+  width: 40%;
+  margin-left: 100px;
+}
+
+#tanıtım {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fa-4x {
+  color: #277BC0;
+  margin-bottom: 20px;
+}
+
+.fa-4x:hover {
+  color: #38b6ff;
+}
+
+#yorums {
+  background-color: #277BC0;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #277bc0;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing {
+  font-family: "Montserrat";
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.card, .card-header, .card-body, .price-text {
+  text-align: left;
+}
+
+.end {
+  background-color: #277bc0;
+  text-align: center;
+  font-family: "Montserrat";
+  padding-top: 50px;
+}
+
+#contact h2 {
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+#contact .btn {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Montserrat";
+  color: grey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.social:hover {
+  color: black;
+}
+
+.social {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.a {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:992px) {
+  .title-img {
+    position: static;
+    width: 30%;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 100px
+  }
+
+  #title .btn {
+    margin-right: 100px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
